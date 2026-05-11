@@ -13,4 +13,14 @@ public class Pedido {
         totalPedidos++;
     }
 
+       public Pedido(String codigo, String cliente, double importeBase) {
+
+        this.codigo = codigo;
+        this.cliente = cliente;
+        this.importeBase = importeBase;
+
+        totalPedidos++;
+    }
+
+
 }
