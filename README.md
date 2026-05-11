@@ -1,19 +1,40 @@
-## Getting Started
+Gestión de Pedidos
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+Es un proyecto en Java para gestionar pedidos de una tienda online.
+El programa puede trabajar con distintos tipos de pedidos mediante herencia:
+-Pedido normal
+-Pedido nacional
+-Pedido internacional
 
-## Folder Structure
+Funciones
+-Crear pedidos
+-Validar pedidos
+-Aplicar descuentos
+-Calcular importe final
+-Gestionar pedidos nacionales e internacionales
+-Cambiar urgencia de pedidos
+-Comprobar revisión aduanera
+-Mostrar información de pedidos
+-Guardar pedidos en un array
+-Calcular importe total de todos los pedidos
+-Mostrar el pedido con mayor importe final
 
-The workspace contains two folders by default, where:
+Tecnologías utilizadas
+-Java
+-Herencia
+-Arrays
+-Métodos estáticos
+-Getters y Setters
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+Uso del programa
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+-Ejecutar la clase App.java
+-El programa creará varios pedidos de ejemplo
+-Se mostrarán los datos de cada pedido
+-Se aplicarán descuentos y cambios de urgencia
+-Se recorrerá el array de pedidos
+-Se enseñaran los resultados en consola
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
+Autor
 
-## Dependency Management
-
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
-"# Tarea-Primera-Parte-Dual"  
+Adrián Jacob Ramos Reverón
