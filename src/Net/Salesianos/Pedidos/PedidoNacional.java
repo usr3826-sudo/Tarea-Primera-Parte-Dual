@@ -34,4 +34,46 @@ public class PedidoNacional extends Pedido {
         this.urgente = urgente;
     }
 
+    @Override
+    public double calcularImporteFinal() {
+
+        double total = importeBase;
+
+        if (peso <= 2) {
+
+            total = total + 5;
+
+        } else if (peso <= 10) {
+
+            total = total + 12;
+
+        } else {
+
+            total = total + 20;
+        }
+
+        if (urgente == true) {
+
+            total = total + 15;
+        }
+
+        return total;
+    }
+
+    public boolean cambiarUrgencia() {
+
+        urgente = !urgente;
+
+        return urgente;
+    }
+
+    @Override
+    public String mostrarInfo() {
+
+        return "Código: " + codigo +
+                "Peso: " + peso +
+                "Urgente: " + urgente +
+                "Importe Final: " + calcularImporteFinal();
+    }
+
 }
