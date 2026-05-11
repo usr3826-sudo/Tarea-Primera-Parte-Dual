@@ -18,4 +18,20 @@ public class PedidoInternacional extends Pedido {
         this.aduanas = aduanas;
     }
 
+        public String getPaisDestino() {
+        return paisDestino;
+    }
+
+    public void setPaisDestino(String paisDestino) {
+        this.paisDestino = paisDestino;
+    }
+
+    public boolean getAduanas() {
+        return aduanas;
+    }
+
+    public void setAduanas(boolean aduanas) {
+        this.aduanas = aduanas;
+    }
+
 }
